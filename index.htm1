@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Topup Dashboard</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#090814;
+color:white;
+}
+
+.sidebar{
+position:fixed;
+left:0;
+top:0;
+width:230px;
+height:100%;
+background:#130722;
+padding:20px;
+}
+
+.logo{
+font-size:32px;
+font-weight:bold;
+color:#b84cff;
+margin-bottom:30px;
+}
+
+.menu a{
+display:block;
+color:white;
+text-decoration:none;
+padding:15px;
+margin:10px 0;
+border-radius:10px;
+background:#1b1230;
+}
+
+.menu a:hover{
+background:#7a2cff;
+}
+
+.main{
+margin-left:250px;
+padding:30px;
+}
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:20px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+margin-bottom:30px;
+}
+
+.card{
+background:#17142b;
+padding:20px;
+border-radius:15px;
+border:1px solid #6a2fff;
+}
+
+.card h2{
+margin:0;
+color:#b84cff;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+background:#151327;
+}
+
+th{
+background:#6b2cff;
+padding:15px;
+}
+
+td{
+padding:12px;
+border-bottom:1px solid #333;
+text-align:center;
+}
+</style>
+
+</head>
+<body>
+
+<div class="sidebar">
+
+<div class="logo">
+🎮 GAME TOPUP
+</div>
+
+<div class="menu">
+<a href="#">🏠 Dashboard</a>
+<a href="#">💰 รายงานรายได้</a>
+<a href="#">📋 รายการเติม</a>
+<a href="#">👥 จัดการสมาชิก</a>
+<a href="#">⚙ ตั้งค่า</a>
+</div>
+
+</div>
+
+<div class="main">
+
+<div class="header">
+
+<div>
+<h2>Sakda Hukiao</h2>
+หุ้นส่วน
+</div>
+
+<div>
+10/06/2026
+</div>
+
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h2>฿18,950</h2>
+รายได้วันนี้
+</div>
+
+<div class="card">
+<h2>฿465,870</h2>
+รายได้เดือนนี้
+</div>
+
+<div class="card">
+<h2>428</h2>
+รายการเติม
+</div>
+
+<div class="card">
+<h2>฿75.60</h2>
+ยอดเฉลี่ย
+</div>
+
+</div>
+
+<h2>รายการเติมล่าสุด</h2>
+
+<table>
+
+<tr>
+<th>เวลา</th>
+<th>ผู้ใช้</th>
+<th>เกม</th>
+<th>ยอดเติม</th>
+<th>สถานะ</th>
+</tr>
+
+<tr>
+<td>10:25</td>
+<td>Nattapong77</td>
+<td>ROV</td>
+<td>60 บาท</td>
+<td style="color:lime">สำเร็จ</td>
+</tr>
+
+<tr>
+<td>10:20</td>
+<td>Beam99</td>
+<td>Free Fire</td>
+<td>100 บาท</td>
+<td style="color:lime">สำเร็จ</td>
+</tr>
+
+<tr>
+<td>10:15</td>
+<td>PloyChan</td>
+<td>PUBG</td>
+<td>50 บาท</td>
+<td style="color:lime">สำเร็จ</td>
+</tr>
+
+</table>
+
+</div>
+
+</body>
+</html>
